@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# --- Virtual Environments ---
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# --- macOS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- Pytest ---
+.cache/
+.pytest_cache/
+
+# --- mypy / coverage / lint ---
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+*.cover
+*.py,cover
+
+# --- IDEs ---
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Local settings and secrets ---
+*.local
+*.db
+secrets.*
+config.yaml

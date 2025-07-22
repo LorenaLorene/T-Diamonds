@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "diamonds": {
+        "property1": {
+          "results": {
+            "property1": [
+              {
+                "assurance_level": "assured",
+                "current_stage": "bruting",
+                "diamond_id": "diamond_1_id",
+                "diamond_parent_id": "diamond_1_parent_id",
+                "lifecycle_state": "active",
+                "rough": {
+                  "carats": 1.2,
+                  "colour": "D",
+                  "fancy_colour": "none",
+                  "fancy_colour_intensity": "none",
+                  "fancy_colour_overtone": "none",
+                  "fluorescence_colour": "none",
+                  "fluorescence_intensity": "none",
+                  "images": [],
+                  "model": "model_1",
+                  "plan": {},
+                  "plan_reports": [],
+                  "quality": "high",
+                  "scan": {},
+                  "scan_reports": [],
+                  "silhouettes": [],
+                  "stress": "low",
+                  "supplementary_files": [],
+                  "videos": []
+                },
+                "polished": {
+                  "carats": 1.0,
+                  "clarity": "VS1",
+                  "colour": "D",
+                  "cut_grade": "Excellent"
+                },
+                "producer_uuid": "uuid-1111-aaaa",
+                "provenance": {
+                  "is_locked": false,
+                  "country_code": "ZA",
+                  "mine_name": "Mine A",
+                  "provenance_name": "South Africa",
+                  "provenance_type": "Country"
+                }
+              },
+              {
+                "assurance_level": "assured",
+                "current_stage": "polishing",
+                "diamond_id": "diamond_2_id",
+                "diamond_parent_id": "diamond_2_parent_id",
+                "lifecycle_state": "active",
+                "rough": {
+                  "carats": 1.0,
+                  "colour": "E",
+                  "fancy_colour": "none",
+                  "fancy_colour_intensity": "none",
+                  "fancy_colour_overtone": "none",
+                  "fluorescence_colour": "none",
+                  "fluorescence_intensity": "none",
+                  "images": [],
+                  "model": "model_2",
+                  "plan": {},
+                  "plan_reports": [],
+                  "quality": "medium",
+                  "scan": {},
+                  "scan_reports": [],
+                  "silhouettes": [],
+                  "stress": "medium",
+                  "supplementary_files": [],
+                  "videos": []
+                },
+                "polished": {
+                  "carats": 0.75,
+                  "clarity": "SI2",
+                  "colour": "E",
+                  "cut_grade": "Very Good"
+                },
+                "producer_uuid": "uuid-2222-bbbb",
+                "provenance": {
+                  "is_locked": true,
+                  "country_code": "CA",
+                  "mine_name": "Mine B",
+                  "provenance_name": "Canada",
+                  "provenance_type": "Country"
+                }
+              },
+              {
+                "assurance_level": "assured",
+                "current_stage": "cutting",
+                "diamond_id": "diamond_3_id",
+                "diamond_parent_id": "diamond_3_parent_id",
+                "lifecycle_state": "active",
+                "rough": {
+                  "carats": 1.8,
+                  "colour": "F",
+                  "fancy_colour": "none",
+                  "fancy_colour_intensity": "none",
+                  "fancy_colour_overtone": "none",
+                  "fluorescence_colour": "none",
+                  "fluorescence_intensity": "none",
+                  "images": [],
+                  "model": "model_3",
+                  "plan": {},
+                  "plan_reports": [],
+                  "quality": "high",
+                  "scan": {},
+                  "scan_reports": [],
+                  "silhouettes": [],
+                  "stress": "low",
+                  "supplementary_files": [],
+                  "videos": []
+                },
+                "polished": {
+                  "carats": 1.5,
+                  "clarity": "VVS2",
+                  "colour": "F",
+                  "cut_grade": "Ideal"
+                },
+                "producer_uuid": "uuid-3333-cccc",
+                "provenance": {
+                  "is_locked": false,
+                  "country_code": "BZ",
+                  "mine_name": "Mine C",
+                  "provenance_name": "Brazil",
+                  "provenance_type": "Country"
+                }
+              }
+            ],
+            "property2": []
+          }
+        },
+        "property2": {}
+      },
+      "platform_id": "f41a0584-7f4a-481e-9327-001efe2ebd2c",
+      "status": "success"
+    }
+  ]
+}
