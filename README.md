@@ -8,9 +8,6 @@ for each diamond, along with a summary of carat differences.
 - Calculate difference between rough and polished carats
 - Provide summary statistics including total diamonds, mean, min, and max differences
 
-## Usage
-Send a POST request with a JSON array of diamond IDs to `/diamond_details` 
-to get detailed diamond data and a summary.
 
 ## Setup
 1. Clone the repository:
@@ -28,5 +25,7 @@ uvicorn app.main:app --reload
 ```
 The API will be available at http://127.0.0.1:8000.
 Send POST requests to /diamond_details with a JSON array of diamond IDs to get diamond details and summary.
-
-
+Request body example:
+```
+[{"diamond_id": "1"}, {"diamond_id": "2"}]
+```
