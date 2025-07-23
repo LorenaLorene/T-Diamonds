@@ -1,5 +1,5 @@
 from fastapi import FastAPI
 from app.api import router
 
-app = FastAPI(title="Public Search API Wrapper")
+app = FastAPI(title="Tracr Integration – Diamond Carat Weight Tracker")
 app.include_router(router)
